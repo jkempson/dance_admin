@@ -14,7 +14,7 @@ class Mail_model extends CI_Model
 		);
 		
 		$this->load->library('email', $config);
-		$this->email->from('heather@forthdanceacademy.com','Heather McKendry [Forth Dance Academy]');
+		$this->email->from('email','name');
 		$this->email->to($to);
 		$this->email->subject($subject);
 		$this->email->message($body);	
