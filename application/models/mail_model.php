@@ -5,10 +5,10 @@ class Mail_model extends CI_Model
 	 public function sendEmail($to,$subject="",$body="") {
 		$config = Array(
 			'protocol' => 'smtp',
-			'smtp_host' => 'tls://email-smtp.eu-west-1.amazonaws.com',
+			'smtp_host' => '',
 			'smtp_port' => 465,
-			'smtp_user' => 'AKIAJEOAI54GQVDSMU5A',
-			'smtp_pass' => 'AscTcfvegpHMomK/WJjVkDf0/w8GqdAg6v4w7ENNvdqn',
+			'smtp_user' => '',
+			'smtp_pass' => ',
 			'mailtype'  => 'text', 
 			'charset'   => 'iso-8859-1'
 		);
